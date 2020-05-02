@@ -17,11 +17,11 @@ public class User implements Serializable {
     private long id;
     private String name;
     private String email;
-    private String phone;
     private String password;
+    private String phone;
 
 
-    public User() {
+    public User(Long o, String name, String email, String password, String phone) {
     }
 
     public User(long id, String name, String email, String phone, String password) {
